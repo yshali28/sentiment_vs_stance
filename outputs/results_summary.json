@@ -1,0 +1,40 @@
+{
+  "n_train": 2914,
+  "n_test": 1249,
+  "model": "logreg",
+  "stance_official_macro_f1": 0.5895,
+  "divergence_rate_train": 0.291,
+  "divergence_rate_test": 0.2954,
+  "cramers_v_train": 0.1265,
+  "cramers_v_test": 0.1177,
+  "proxy_overall_accuracy_train": 0.4437,
+  "proxy_divergent_subset_accuracy_train": 0.0,
+  "proxy_divergent_subset_fraction_train": 0.291,
+  "target_dependence_train": [
+    {
+      "target": "Atheism",
+      "n": 513,
+      "divergence_rate": 0.5964912280701754
+    },
+    {
+      "target": "Climate Change is a Real Concern",
+      "n": 395,
+      "divergence_rate": 0.2683544303797468
+    },
+    {
+      "target": "Legalization of Abortion",
+      "n": 653,
+      "divergence_rate": 0.2679938744257274
+    },
+    {
+      "target": "Feminist Movement",
+      "n": 664,
+      "divergence_rate": 0.25903614457831325
+    },
+    {
+      "target": "Hillary Clinton",
+      "n": 689,
+      "divergence_rate": 0.12917271407837447
+    }
+  ]
+}
